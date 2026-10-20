@@ -1,6 +1,6 @@
-# Cosmos Sandbox
+# Reservation System Frontend
 
-Welcome to the Cosmos Sandbox project!
+Welcome to the Reservation System Frontend project!
 
 ## Requirements
 
