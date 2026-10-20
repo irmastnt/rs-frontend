@@ -1,0 +1,10 @@
+# Local preview of the production build: npm run build && docker compose up -d
+services:
+  web:
+    image: caddy:2
+    container_name: bestprojection-local
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docker/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./dist/cosmos-sandbox/browser:/srv:ro

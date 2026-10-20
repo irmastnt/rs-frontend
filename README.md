@@ -21,6 +21,13 @@ in the browser automatically.
 - `npm run watch` rebuilds the development bundle as files change.
 - `npm run typecheck` checks TypeScript and Angular templates without emitting files.
 
+## Production preview in Docker
+
+`npm run build`, then `docker compose up -d`. Open http://localhost:8080 to see
+the production build served by Caddy, the same web server used on the VPS
+(config in `docker/Caddyfile`). After rebuilding, refresh the page; no restart
+is needed. Stop it with `docker compose down`.
+
 This is a minimal, standalone, zoneless Angular starter with CSS and strict
 checking. There is no routing, SSR, backend, or test-runner setup; component
 tests and Vitest configuration are reserved for COS-6.

@@ -1,0 +1,7 @@
+# SITE_ADDRESS: ":80" locally (plain HTTP), "bestprojection.com" on the server (auto HTTPS)
+{$SITE_ADDRESS::80} {
+	root * /srv
+	encode zstd gzip
+	try_files {path} /index.html
+	file_server
+}
