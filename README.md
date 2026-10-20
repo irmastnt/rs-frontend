@@ -16,7 +16,7 @@ in the browser automatically.
 
 ## Build and type checking
 
-- `npm run build` creates the production website in `dist/cosmos-sandbox/browser/`.
+- `npm run build` creates the production website in `dist/soiree/browser/`.
 - `npm run build:dev` creates a development build with source maps.
 - `npm run watch` rebuilds the development bundle as files change.
 - `npm run typecheck` checks TypeScript and Angular templates without emitting files.
