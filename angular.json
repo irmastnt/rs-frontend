@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "cosmos-sandbox": {
+    "soiree": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -83,10 +83,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "cosmos-sandbox:build:production"
+              "buildTarget": "soiree:build:production"
             },
             "development": {
-              "buildTarget": "cosmos-sandbox:build:development"
+              "buildTarget": "soiree:build:development"
             }
           },
           "defaultConfiguration": "development"
