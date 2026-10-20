@@ -1,6 +1,6 @@
-# Reservation System FrontEnd
+# Reservation System Frontend
 
-Welcome to the Reservation System FrontEnd project!
+Welcome to the Reservation System Frontend project!
 
 ## Requirements
 
